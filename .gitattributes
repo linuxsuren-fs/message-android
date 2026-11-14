@@ -1,0 +1,4 @@
+# The wrapper shell script must stay LF (POSIX sh) and the batch file CRLF.
+gradlew text eol=lf
+*.bat text eol=crlf
+*.jar binary
